@@ -54,8 +54,8 @@ python evaluate.py \
 
 📁 Resources
 
-📄 Dataset: Baidu网盘 Link
+📄 Dataset: Link
 
-🎯 Pretrained Weights: Baidu网盘 Link
+🎯 Pretrained Weights: Link
 
 
