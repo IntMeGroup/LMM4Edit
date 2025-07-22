@@ -19,7 +19,7 @@ Download the Qwen2.5-VL pretrained weights and place them in:
 ```bash
 ./weights/qwen2_5
 ```
-## 🏋️ Training
+## 🚀 Training
 ```bash
 CUDA_VISIBLE_DEVICES=0 swift sft \
   --model_type qwen2_5_vl \
