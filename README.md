@@ -20,6 +20,7 @@ cd ./transformers
 pip install -e .
 ```
 2. **Download Weights**
+
 Download the Qwen2.5-VL pretrained weights and place them in:
 ```bash
 ./weights/qwen2_5
@@ -58,9 +59,4 @@ python evaluate.py \
 
 🎯 Pretrained Weights: Link
 
-## 🎓Citations
-If you find our work useful, please cite our paper as:
-```bash
-
-```
 
