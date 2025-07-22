@@ -1,12 +1,6 @@
 # LMM4Edit
 [ACM MM 2025] LMM4Edit: Benchmarking and Evaluating Multimodal Image Editing with LMMs
 
-# MS-Swift 3.2.0: Multimodal Fine-tuning Framework
-
-This repository provides code for training and evaluating multimodal large models, such as Qwen2.5-VL, using the MS-Swift fine-tuning framework.
-
----
-
 ## 📦 Setup
 
 1. **Unzip the framework and install dependencies**
