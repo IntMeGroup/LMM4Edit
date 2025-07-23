@@ -53,4 +53,18 @@ python evaluate.py \
 
 🎯 Pretrained Weights: Link
 
+## 🎓Citations
+If you find our work useful, please cite our paper as:
+```bash
+@misc{xu2025lmm4editbenchmarkingevaluatingmultimodal,
+      title={LMM4Edit: Benchmarking and Evaluating Multimodal Image Editing with LMMs}, 
+      author={Zitong Xu and Huiyu Duan and Bingnan Liu and Guangji Ma and Jiarui Wang and Liu Yang and Shiqi Gao and Xiaoyu Wang and Jia Wang and Xiongkuo Min and Guangtao Zhai and Weisi Lin},
+      year={2025},
+      eprint={2507.16193},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2507.16193}, 
+}
+```
+
 
