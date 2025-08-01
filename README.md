@@ -51,7 +51,7 @@ python evaluate.py \
 
 📄 Dataset: [Link](https://pan.baidu.com/s/1x1QHFNC6Kz_-X44QyoQTsQ?pwd=kxyt)
 
-🎯 Pretrained Weights: Link
+🎯 Pretrained Weights: [Link](https://pan.baidu.com/s/1vrpqazjq3Ah8N6vlT2A-mQ?pwd=y73e)
 
 ## 🎓Citations
 If you find our work useful, please cite our paper as:
