@@ -1,5 +1,5 @@
 # LMM4Edit
-[ACM MM 2025] LMM4Edit: Benchmarking and Evaluating Multimodal Image Editing with LMMs
+[ACM MM 2025] [LMM4Edit: Benchmarking and Evaluating Multimodal Image Editing with LMMs] (https://www.arxiv.org/abs/2507.16193)
 
 ## 📦 Setup
 
