@@ -49,7 +49,7 @@ python evaluate.py \
 
 ## 📁 Resources
 
-📄 Dataset: [Link](https://pan.baidu.com/s/1x1QHFNC6Kz_-X44QyoQTsQ?pwd=kxyt)
+📄 Dataset: [Baidu Link](https://pan.baidu.com/s/1x1QHFNC6Kz_-X44QyoQTsQ?pwd=kxyt) [Google Link](https://drive.google.com/file/d/13Ysqp8BTuRIA5schV4QUrahJIR6Sr7cq/view?usp=drive_link)
 
 🎯 Pretrained Weights: [Link](https://pan.baidu.com/s/1vrpqazjq3Ah8N6vlT2A-mQ?pwd=y73e)
 
