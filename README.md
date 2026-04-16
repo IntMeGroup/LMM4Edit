@@ -6,8 +6,12 @@
 You can download the pre-trained LoRA checkpoints from the following link:
 [LMM4Edit(Qwen3-VL)](https://huggingface.co/sparkling621/LMM4Edit_Qwen3/tree/main)
 
-## ⚡Quick Start
+## 📦 Installation
+```bash
+pip install -r requirements.txt
+```
 
+## ⚡Quick Start
 ```bash
 python inference.py \
     --source_image "/path/to/source.jpg" \
@@ -37,7 +41,10 @@ CUDA_VISIBLE_DEVICES=0 swift sft \
 
 ## 📁 Resources
 
-📄 Dataset: [Baidu Link](https://pan.baidu.com/s/1x1QHFNC6Kz_-X44QyoQTsQ?pwd=kxyt) 
+📄 Dataset: 
+
+[Baidu Link](https://pan.baidu.com/s/1x1QHFNC6Kz_-X44QyoQTsQ?pwd=kxyt) 
+
 [Google Link](https://drive.google.com/file/d/13Ysqp8BTuRIA5schV4QUrahJIR6Sr7cq/view?usp=drive_link)
 
 ## 🎓Citations
