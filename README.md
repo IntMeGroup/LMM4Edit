@@ -23,6 +23,16 @@ python inference.py \
 
 ## 🚀 Training
 ```bash
+unzip ms-swift.zip
+cd ./ms-swift-3.2.0
+pip install -e .
+pip install torchvision qwen_vl_utils decord
+unzip transformers.zip
+cd ./transformers
+pip install -e .
+```
+
+```bash
 CUDA_VISIBLE_DEVICES=0 swift sft \
   --model_type qwen2_5_vl \
   --model ./weights/qwen2_5 \
