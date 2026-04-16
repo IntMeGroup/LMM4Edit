@@ -1,24 +1,22 @@
 # LMM4Edit
 [ACM MM 2025] [LMM4Edit: Benchmarking and Evaluating Multimodal Image Editing with LMMs](https://www.arxiv.org/abs/2507.16193)
 
-## 📦 Setup
+## 🔥 Updates
+- [2026-04] Upgraded the backbone model from Qwen2.5-VL-8B to Qwen3-VL-8B using the same training method.
+You can download the pre-trained LoRA checkpoints from the following link:
+[LMM4Edit(Qwen3-VL)](https://huggingface.co/sparkling621/LMM4Edit_Qwen3/tree/main)
 
-1. **Unzip the framework and install dependencies**
-```bash
-unzip ms-swift.zip
-cd ./ms-swift-3.2.0
-pip install -e .
-pip install torchvision qwen_vl_utils decord
-unzip transformers.zip
-cd ./transformers
-pip install -e .
-```
-2. **Download Weights**
+## ⚡Quick Start
 
-Download the Qwen2.5-VL pretrained weights and place them in:
 ```bash
-./weights/qwen2_5
+python inference.py \
+    --source_image "/path/to/source.jpg" \
+    --edited_image "/path/to/edited.jpg" \
+    --instruction "Editing instruction" \
+    --peft_dir "weights/visual" \
+    --mode visual
 ```
+
 ## 🚀 Training
 ```bash
 CUDA_VISIBLE_DEVICES=0 swift sft \
@@ -37,21 +35,10 @@ CUDA_VISIBLE_DEVICES=0 swift sft \
   --freeze_vit false
 ```
 
-## 🧪 Evaluation
-```bash
-python evaluate.py \
-  --model_path ./weights/qwen2_5 \
-  --ckpt_path ./weights/checkpoints/model_weights_v.pth \
-  --val_dataset ./data/test_v.json \
-  --output_json /path/to/output_predictions.json \
-  --QA False
-```
-
 ## 📁 Resources
 
-📄 Dataset: [Baidu Link](https://pan.baidu.com/s/1x1QHFNC6Kz_-X44QyoQTsQ?pwd=kxyt) [Google Link](https://drive.google.com/file/d/13Ysqp8BTuRIA5schV4QUrahJIR6Sr7cq/view?usp=drive_link)
-
-🎯 Pretrained Weights: [Link](https://pan.baidu.com/s/1vrpqazjq3Ah8N6vlT2A-mQ?pwd=y73e)
+📄 Dataset: [Baidu Link](https://pan.baidu.com/s/1x1QHFNC6Kz_-X44QyoQTsQ?pwd=kxyt) 
+[Google Link](https://drive.google.com/file/d/13Ysqp8BTuRIA5schV4QUrahJIR6Sr7cq/view?usp=drive_link)
 
 ## 🎓Citations
 If you find our work useful, please cite our paper as:
